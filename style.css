@@ -283,3 +283,17 @@ footer{
   }
 
 }
+body{
+  position:relative;
+}
+
+/* garante que conteúdo fique acima das partículas */
+.hero,
+.cards,
+.tech-section,
+.climate-section,
+header,
+footer{
+  position:relative;
+  z-index:1;
+}
